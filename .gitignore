@@ -1,0 +1,9 @@
+# Ignore all PyTorch and YOLO model files
+*.pt
+*.pth
+# Ignore all output images
+output*.jpg
+# Ignore the entire model folder if it exists
+model/
+output/
+*.jpg
