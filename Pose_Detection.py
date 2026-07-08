@@ -1,5 +1,6 @@
 from ultralytics import YOLO
 import os
+import pandas
 # Load YOLOv11 pose model
 model = YOLO("model/yolo11n-pose.pt")
 

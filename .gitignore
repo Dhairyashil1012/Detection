@@ -4,6 +4,96 @@
 # Ignore all output images
 output*.jpg
 # Ignore the entire model folder if it exists
-model/
+model/*
 output/
+!model/.gitkeep
 *.jpg
+
+# # CUDA package
+# cuda-repo-ubuntu2404-12-8-local_12.8.2-570.211.01-1_amd64.deb
+
+# # Jupyter
+# **/.ipynb_checkpoints/
+
+# ##################################################
+# # Classification
+# ##################################################
+
+# Classification_Model_Evaluation/cls-yaml/*
+# !Classification_Model_Evaluation/cls-yaml/.gitkeep
+
+# Classification_Model_Evaluation/Classification _Models/*
+# !Classification_Model_Evaluation/Classification _Models/.gitkeep
+
+# Classification_Model_Evaluation/Images-20260702T141014Z-3-001/*
+# !Classification_Model_Evaluation/Images-20260702T141014Z-3-001/.gitkeep
+
+# ##################################################
+# # Detection
+# ##################################################
+
+# Detection_Model_Evaluation/Detection_Models/*
+# !Detection_Model_Evaluation/Detection_Models/.gitkeep
+
+# Detection_Model_Evaluation/detection-yaml/*
+# !Detection_Model_Evaluation/detection-yaml/.gitkeep
+
+# Detection_Model_Evaluation/Images-20260702T141014Z-3-001/*
+# !Detection_Model_Evaluation/Images-20260702T141014Z-3-001/.gitkeep
+
+# ##################################################
+# # Segmentation
+# ##################################################
+
+# Semantic_Segmentation_Model_Evaluation/Sem_Models/*
+# !Semantic_Segmentation_Model_Evaluation/Sem_Models/.gitkeep
+
+# Semantic_Segmentation_Model_Evaluation/sem-yaml/*
+# !Semantic_Segmentation_Model_Evaluation/sem-yaml/.gitkeep
+
+# Semantic_Segmentation_Model_Evaluation/Images-20260702T141014Z-3-001/*
+# !Semantic_Segmentation_Model_Evaluation/Images-20260702T141014Z-3-001/.gitkeep
+
+
+# touch Classification_Model_Evaluation/cls-yaml/.gitkeep
+
+# touch "Classification_Model_Evaluation/Classification _Models/.gitkeep"
+
+# touch Classification_Model_Evaluation/Images-20260702T141014Z-3-001/.gitkeep
+
+# touch Detection_Model_Evaluation/Detection_Models/.gitkeep
+
+# touch Detection_Model_Evaluation/detection-yaml/.gitkeep
+
+# touch Detection_Model_Evaluation/Images-20260702T141014Z-3-001/.gitkeep
+
+# touch Semantic_Segmentation_Model_Evaluation/Sem_Models/.gitkeep
+
+# touch Semantic_Segmentation_Model_Evaluation/sem-yaml/.gitkeep
+
+# touch Semantic_Segmentation_Model_Evaluation/Images-20260702T141014Z-3-001/.gitkeep
+
+
+
+
+# Step 7: If the .gitkeep files don't appear
+
+# Force-add them:
+
+# git add -f Classification_Model_Evaluation/cls-yaml/.gitkeep
+
+# git add -f "Classification_Model_Evaluation/Classification _Models/.gitkeep"
+
+# git add -f Classification_Model_Evaluation/Images-20260702T141014Z-3-001/.gitkeep
+
+# git add -f Detection_Model_Evaluation/Detection_Models/.gitkeep
+
+# git add -f Detection_Model_Evaluation/detection-yaml/.gitkeep
+
+# git add -f Detection_Model_Evaluation/Images-20260702T141014Z-3-001/.gitkeep
+
+# git add -f Semantic_Segmentation_Model_Evaluation/Sem_Models/.gitkeep
+
+# git add -f Semantic_Segmentation_Model_Evaluation/sem-yaml/.gitkeep
+
+# git add -f Semantic_Segmentation_Model_Evaluation/Images-20260702T141014Z-3-001/.gitkeep
